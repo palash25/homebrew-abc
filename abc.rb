@@ -1,12 +1,12 @@
 class Abc < Formula
   desc "Power of appbase.io via CLI, with nifty imports from your favorite data sources"
   homepage "https://github.com/appbaseio/abc"
-  url "https://github.com/appbaseio/abc/releases/download/0.7.1/abc-darwin-0.7.1.zip"
-  sha256 "28bdc5e02e0c147c7098e2e7d2d507e12f71281c761a94b9b5570808dc91671a"
+  url "https://github.com/appbaseio/abc/releases/download/0.6.7/abc-darwin-0.6.7.zip"
+  sha256 "b13ed26b0f0fd457adcd7d58c53a2ee5017ac253e429c078e9c5a6a97ab4406f"
 
   def install
-    bin.install "abc-0.7.1"
-    mv "#{bin}/abc-0.7.1", "#{bin}/abc"
+    bin.install "abc-0.6.7"
+    mv "#{bin}/abc-0.6.7", "#{bin}/abc"
   end
 
   test do
